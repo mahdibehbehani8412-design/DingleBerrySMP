@@ -1,0 +1,15 @@
+name: DingleberrySMP
+version: 1.0.0
+main: com.dingleberry.smp.DingleberrySMP
+api-version: '26.1'
+description: Scoreboard, stats and money for DingleberrySMP
+commands:
+  balance:
+    description: Show your money
+    aliases: [bal, money]
+  eco:
+    description: Admin money command (/eco give <player> <amount>)
+    permission: dingleberry.admin
+permissions:
+  dingleberry.admin:
+    default: op
